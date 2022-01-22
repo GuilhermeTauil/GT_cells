@@ -14,6 +14,7 @@ export default function Home() {
       <Header/>
       <Content/>
       <Content2/>
+  <Content2/>
     </div>
   )
 }
