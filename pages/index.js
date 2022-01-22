@@ -10,11 +10,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Tauil -  GT</title>
-        <script src="https://kit.fontawesome.com/a103da23b8.js" crossorigin="anonymous"></script>
       </Head>
       <Header/>
       <Content/>
       <Content2/>
+      <Content2/>
+
     </div>
   )
 }
