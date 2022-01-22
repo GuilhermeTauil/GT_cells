@@ -1,0 +1,27 @@
+.main {
+    margin: 0px; 
+    text-align: center;
+    color: white;
+}
+
+.main h2{
+    color:rgb(243, 243, 243);
+    padding: 40px;
+    text-align: center;
+    margin: 0px;
+    animation-duration:3s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color: red; font-family: cursive;}
+    25%  {background-color: yellow; font-family: fantasy;}
+    50%  {background-color: blue; font-family:Rajdhani;}
+    100% {background-color: green; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+  }
+
+@media (max-width: 600px){
+    .main h2 {
+        font-size: 10px;
+    }
+}
