@@ -1,0 +1,19 @@
+.Main p {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.Main{
+    background-color: black;
+    padding: 150px;
+}
+
+@media (max-width: 600px){
+    .Main p {
+        font-size: 10px;
+    }
+    .Main{
+        padding: 100px;
+    }
+}

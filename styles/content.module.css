@@ -1,0 +1,44 @@
+.content {
+    padding: 200px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/celular_banner.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content a {
+    margin: 15px;
+    padding: 15px  50px;
+    border-radius: 60px;
+}
+
+.Instagram {
+    font-family: 'Satisfy', cursive;
+    background-color: rgb(241, 12, 12);
+}
+.Instagram:hover{
+    color: rgb(241, 12, 12);
+    background-color: white;
+}
+
+.whattsapp {
+    background-color: green;
+}
+
+.whattsapp:hover{
+    background-color: white;
+    color: green;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 100px;
+    }
+    .content a{
+        display:grid;
+        margin: 10px;
+    }
+}
