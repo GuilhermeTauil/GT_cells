@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Content from '../components/content'
 import Content2 from '../components/content2'
+import Content3 from '../components/content3'
+
 import Footer from '../components/footer'
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
       <Header/>
       <Content/>
       <Content2/>
+      <Content3/>
       <Footer/>
     </div>
   )

@@ -1,0 +1,33 @@
+.Main {
+    text-align: center;
+
+}
+
+.Main table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.Main td {
+    text-align: center;
+    padding: 16px;
+  }
+
+.Main th {
+    text-align: center;
+    padding: 16px;
+  }
+  
+.Main th:first-child{
+    text-align: left;
+  }
+
+.Main td:first-child {
+    text-align: left;
+  }
+
+  .Main tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+
